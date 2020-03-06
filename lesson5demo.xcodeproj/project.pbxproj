@@ -14,6 +14,9 @@
 		1F91AA4A24122A1100EFBFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F91AA4924122A1100EFBFE5 /* Assets.xcassets */; };
 		1F91AA4D24122A1100EFBFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F91AA4B24122A1100EFBFE5 /* LaunchScreen.storyboard */; };
 		1F91AA5824122A1100EFBFE5 /* lesson5demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AA5724122A1100EFBFE5 /* lesson5demoTests.swift */; };
+		1F91AA6524122ACA00EFBFE5 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AA6424122ACA00EFBFE5 /* GradientButton.swift */; };
+		1F91AA6724123DA400EFBFE5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AA6624123DA400EFBFE5 /* LocationManager.swift */; };
+		1F91AA692412420500EFBFE5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91AA682412420500EFBFE5 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		1F91AA5324122A1100EFBFE5 /* lesson5demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lesson5demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F91AA5724122A1100EFBFE5 /* lesson5demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson5demoTests.swift; sourceTree = "<group>"; };
 		1F91AA5924122A1100EFBFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F91AA6424122ACA00EFBFE5 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		1F91AA6624123DA400EFBFE5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1F91AA682412420500EFBFE5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				1F91AA4924122A1100EFBFE5 /* Assets.xcassets */,
 				1F91AA4B24122A1100EFBFE5 /* LaunchScreen.storyboard */,
 				1F91AA4E24122A1100EFBFE5 /* Info.plist */,
+				1F91AA6424122ACA00EFBFE5 /* GradientButton.swift */,
+				1F91AA6624123DA400EFBFE5 /* LocationManager.swift */,
+				1F91AA682412420500EFBFE5 /* DataManager.swift */,
 			);
 			path = lesson5demo;
 			sourceTree = "<group>";
@@ -201,6 +210,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F91AA4524122A0D00EFBFE5 /* ViewController.swift in Sources */,
+				1F91AA692412420500EFBFE5 /* DataManager.swift in Sources */,
+				1F91AA6524122ACA00EFBFE5 /* GradientButton.swift in Sources */,
+				1F91AA6724123DA400EFBFE5 /* LocationManager.swift in Sources */,
 				1F91AA4124122A0D00EFBFE5 /* AppDelegate.swift in Sources */,
 				1F91AA4324122A0D00EFBFE5 /* SceneDelegate.swift in Sources */,
 			);
@@ -372,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdb.lesson5demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mdb.lesson5demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    var dataManager: DataManager!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        self.dataManager = DataManager()
     }
-
-
+    @IBAction func startUpdatingLocation(_ sender: Any) {
+        self.dataManager.locationManager.beginListening()
+    }
+    
+    @IBAction func endUpdatingLocation(_ sender: Any) {
+        self.dataManager.locationManager.stopListening()
+    }
 }
 
